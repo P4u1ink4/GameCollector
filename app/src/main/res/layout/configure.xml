@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCD6D6"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Configuration">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Podaj nazwę użytkownika z serwisu BGG:"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/setUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="p4u1ink4" />
+
+    <Button
+        android:id="@+id/btnConfigure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#755151"
+        android:text="Synchronizuj dane"
+        android:textColor="#DCD6D6" />
+
+</LinearLayout>
